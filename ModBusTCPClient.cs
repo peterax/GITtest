@@ -33,7 +33,8 @@ namespace Tiara.IO
 
         Tiara.Network.ModbusTCP.Master master;      //The modbus object handling the communication
 
-        string _serverIP = System.String.Empty;
+        string _serverIP = 
+		System.String.Empty;
         int _serverPort = 502;  //Default
 
         int _updateRate = 500;  //default 500 ms
